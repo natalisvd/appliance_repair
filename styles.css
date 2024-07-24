@@ -218,6 +218,54 @@ contact-section a {
     right: 10px;
 }
 
+.why-us-section {
+    padding: 40px 20px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.why-us-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.reasons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reason-column {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.reason-item {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.reason-item .icon {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #1F1F1F;
     text-align: center;
