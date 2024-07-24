@@ -107,6 +107,7 @@ header nav a {
     color: #FFFFFF;
     font-size: 1em;
     cursor: pointer;
+    height: 60px;
 }
 
 .details-section {
