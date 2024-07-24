@@ -266,6 +266,11 @@ contact-section a {
     font-weight: bold;
 }
 
+.logo {
+    display: block;
+    max-width: 30px; /* Set the desired size */
+}
+
 footer {
     background-color: #1F1F1F;
     text-align: center;
