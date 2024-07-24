@@ -163,7 +163,7 @@ header nav a {
     margin-bottom: 10px;
 }
 
-.contact-section a {
+contact-section a {
     color: #FFFFFF;
     text-decoration: underline;
 }
@@ -183,6 +183,7 @@ header nav a {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .carousel-images {
@@ -192,8 +193,8 @@ header nav a {
 
 .carousel-images img {
     width: 100%;
-    max-width: 100%;
-    border-radius: 10px;
+    height: 400px; /* Ensure consistent height */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
 }
 
 .carousel-prev, .carousel-next {
